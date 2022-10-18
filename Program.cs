@@ -20,5 +20,7 @@ while(playAgain == true)
         {
             Console.WriteLine("Alright");
             Console.Write("Please enter a name: ");
+            string name = Console.ReadLine();
+            name = name.ToUpper();
         }
 }
