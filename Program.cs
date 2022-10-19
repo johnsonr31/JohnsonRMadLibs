@@ -10,6 +10,7 @@ while(playAgain == true)
     // This will print some words to the console, and take the user's input
     Console.WriteLine("Do you want to create a story?");
     Console.Write("YES or NO: ");
+    // The user's input will be taken, and it will be converted to all uppercase
     string yesNo = Console.ReadLine();
     yesNo = yesNo.ToUpper();
         if(yesNo == "NO")
@@ -53,7 +54,36 @@ while(playAgain == true)
             Console.Write("Enter a verb: ");
             string verb1 = Console.ReadLine();
             verb1 = verb1.ToUpper();
+            
+            Console.WriteLine("");
+            Console.Write("Enter a location: ");
+            string location1 = Console.ReadLine();
+            location1 = location1.ToUpper();
 
+            Console.WriteLine("");
+            Console.Write("Enter a country: ");
+            string country = Console.ReadLine();
+            country = country.ToUpper();
+
+            Console.WriteLine("");
+            Console.Write("Enter an adjective: ");
+            string adjective1 = Console.ReadLine();
+            adjective1 = adjective1.ToUpper();
+
+            Console.WriteLine("");
+            Console.Write("Enter an animal: ");
+            string animal2 = Console.ReadLine();
+            animal2 = animal2.ToUpper();
+            
+            Console.WriteLine("");
+            Console.Write("Enter an verb: ");
+            string verb2 = Console.ReadLine();
+            verb2 = verb2.ToUpper();
+
+            Console.WriteLine("");
+            Console.Write("Enter an adjective: ");
+            string adjective2 = Console.ReadLine();
+            adjective2 = adjective2.ToUpper();
 
         }
 }
