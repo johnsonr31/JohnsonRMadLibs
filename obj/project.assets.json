@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\rcj53\\.nuget\\packages\\": {}
+    "/Users/andy/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rcj53\\Documents\\CodeStack Assignments\\Lvl1\\Week 1\\RJohnsonMadLibs\\RJohnsonMadLibs.csproj",
+      "projectUniqueName": "/Users/andy/CodeStack 22-23/lvl 1/Gitrespostory/RJohnsonMadLibs/RJohnsonMadLibs.csproj",
       "projectName": "RJohnsonMadLibs",
-      "projectPath": "C:\\Users\\rcj53\\Documents\\CodeStack Assignments\\Lvl1\\Week 1\\RJohnsonMadLibs\\RJohnsonMadLibs.csproj",
-      "packagesPath": "C:\\Users\\rcj53\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rcj53\\Documents\\CodeStack Assignments\\Lvl1\\Week 1\\RJohnsonMadLibs\\obj\\",
+      "projectPath": "/Users/andy/CodeStack 22-23/lvl 1/Gitrespostory/RJohnsonMadLibs/RJohnsonMadLibs.csproj",
+      "packagesPath": "/Users/andy/.nuget/packages/",
+      "outputPath": "/Users/andy/CodeStack 22-23/lvl 1/Gitrespostory/RJohnsonMadLibs/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\rcj53\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/Users/andy/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -59,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
       }
     }
   }
