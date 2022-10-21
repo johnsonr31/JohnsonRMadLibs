@@ -1,7 +1,7 @@
 ﻿// Richard Johnson
 // 10-18-22
-//
 
+// This is where we declare our variables
 bool playAgain = true;
 bool isNum;
 int num;
@@ -24,6 +24,7 @@ while(playAgain == true)
             Console.WriteLine("Then goodbye.");
             playAgain = false;
         }
+        // If the player types yes, the program will move on to asking for inputs, which will all be converted to strings
         else if(yesNo == "YES" && isNum != true)
         {
             Console.WriteLine("Alright");
@@ -80,7 +81,7 @@ while(playAgain == true)
             string adjective2 = Console.ReadLine();
 
 
-
+        // The words that were entered and converted to strings will be printed to the console, filling the blank areas in the story
         Console.WriteLine($"There was once a person named {name1} who lived in a {color1} {noun1} out in the woods. One day, ");
         Console.WriteLine($"{name1} woke up to find a {animal1} knocking at his door. The {animal1} was named {name2}, ");
         Console.WriteLine($"and was here to tell {name1} about a magic {noun2} that could {verb1}. {name1} agreed to find ");
@@ -90,10 +91,13 @@ while(playAgain == true)
         Console.WriteLine($"from them, and managed to reach the {location1}. They got in and found the magic {noun2}, and lived ");
         Console.WriteLine($"{adjective2} ever after.");
         Console.WriteLine(" ");
+        // After the story is printed to the console, the player will be asked if they want to play again, 
+        // and the program will loop back to the YES or NO choice from the beginning
         Console.WriteLine("Do you want to go again?");
         }
         else
         {
+            // If the user types something aside from YES or NO, the text below will print, and the loop will begin again
             Console.WriteLine("Invalid Input.");
         }
 }
