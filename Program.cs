@@ -9,6 +9,7 @@ int num;
 
 
     // This will print some words to the console
+    Console.Clear();
     Console.WriteLine("Do you want to create a story?");
 // This while loop will continue running as long as playAgain is true
 while(playAgain == true)
